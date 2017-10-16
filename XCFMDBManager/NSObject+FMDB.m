@@ -12,7 +12,7 @@
 
 #import "NSObject+FMDB.h"
 
-#import "FMDB.h"
+#import <FMDB/FMDB.h>
 
 #import <objc/runtime.h>
 

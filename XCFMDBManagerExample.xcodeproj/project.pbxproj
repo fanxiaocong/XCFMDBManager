@@ -15,15 +15,13 @@
 		1ED5C2F71E9CA0E40039B452 /* XCFMDBManagerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED5C2F61E9CA0E40039B452 /* XCFMDBManagerExampleTests.m */; };
 		1ED5C3021E9CA0E40039B452 /* XCFMDBManagerExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED5C3011E9CA0E40039B452 /* XCFMDBManagerExampleUITests.m */; };
 		1ED5C3111E9CA1150039B452 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED5C3101E9CA1150039B452 /* libsqlite3.tbd */; };
-		1ED5C3211E9CA1690039B452 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED5C3141E9CA1690039B452 /* FMDatabase.m */; };
-		1ED5C3221E9CA1690039B452 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED5C3161E9CA1690039B452 /* FMDatabaseAdditions.m */; };
-		1ED5C3231E9CA1690039B452 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED5C3181E9CA1690039B452 /* FMDatabasePool.m */; };
-		1ED5C3241E9CA1690039B452 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED5C31A1E9CA1690039B452 /* FMDatabaseQueue.m */; };
-		1ED5C3251E9CA1690039B452 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED5C31D1E9CA1690039B452 /* FMResultSet.m */; };
 		1ED5C3291E9CA1930039B452 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED5C3281E9CA1930039B452 /* ViewController.m */; };
 		1ED5C32E1E9CA24C0039B452 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED5C32B1E9CA24C0039B452 /* Person.m */; };
 		1ED5C32F1E9CA24C0039B452 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED5C32D1E9CA24C0039B452 /* Student.m */; };
 		1ED5C3351E9CA2A50039B452 /* NSObject+FMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ED5C3341E9CA2A50039B452 /* NSObject+FMDB.m */; };
+		749058CCF2454C0A7C8E21E4 /* Pods_XCFMDBManagerExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9402DAA8158BD5D1D3FE60AF /* Pods_XCFMDBManagerExampleTests.framework */; };
+		87EC8C35661923FDED537D69 /* Pods_XCFMDBManagerExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2442A1A5269D42982F1270A8 /* Pods_XCFMDBManagerExampleUITests.framework */; };
+		ACBF975D4DF3F5FC823982EE /* Pods_XCFMDBManagerExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA4EA7EC6F3EE940526791A2 /* Pods_XCFMDBManagerExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DDDF6D78B0E7EF01B09D262 /* Pods-XCFMDBManagerExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCFMDBManagerExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XCFMDBManagerExampleUITests/Pods-XCFMDBManagerExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1ED5C2D91E9CA0E40039B452 /* XCFMDBManagerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCFMDBManagerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ED5C2DD1E9CA0E40039B452 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1ED5C2DF1E9CA0E40039B452 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,17 +58,6 @@
 		1ED5C3011E9CA0E40039B452 /* XCFMDBManagerExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCFMDBManagerExampleUITests.m; sourceTree = "<group>"; };
 		1ED5C3031E9CA0E40039B452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1ED5C3101E9CA1150039B452 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		1ED5C3131E9CA1690039B452 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
-		1ED5C3141E9CA1690039B452 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
-		1ED5C3151E9CA1690039B452 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		1ED5C3161E9CA1690039B452 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		1ED5C3171E9CA1690039B452 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
-		1ED5C3181E9CA1690039B452 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
-		1ED5C3191E9CA1690039B452 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
-		1ED5C31A1E9CA1690039B452 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
-		1ED5C31B1E9CA1690039B452 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
-		1ED5C31C1E9CA1690039B452 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
-		1ED5C31D1E9CA1690039B452 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		1ED5C3271E9CA1930039B452 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1ED5C3281E9CA1930039B452 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1ED5C32A1E9CA24C0039B452 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -78,6 +66,14 @@
 		1ED5C32D1E9CA24C0039B452 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		1ED5C3331E9CA2A50039B452 /* NSObject+FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FMDB.h"; sourceTree = "<group>"; };
 		1ED5C3341E9CA2A50039B452 /* NSObject+FMDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FMDB.m"; sourceTree = "<group>"; };
+		2442A1A5269D42982F1270A8 /* Pods_XCFMDBManagerExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCFMDBManagerExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		323AC2FB9F2C59988779D51A /* Pods-XCFMDBManagerExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCFMDBManagerExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XCFMDBManagerExampleUITests/Pods-XCFMDBManagerExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8133112EA82097E53FCEEAAD /* Pods-XCFMDBManagerExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCFMDBManagerExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XCFMDBManagerExampleTests/Pods-XCFMDBManagerExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9402DAA8158BD5D1D3FE60AF /* Pods_XCFMDBManagerExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCFMDBManagerExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9547A4F99EFED0902EB4101E /* Pods-XCFMDBManagerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCFMDBManagerExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XCFMDBManagerExample/Pods-XCFMDBManagerExample.debug.xcconfig"; sourceTree = "<group>"; };
+		C12AAB6C70657B87E6CBC3E8 /* Pods-XCFMDBManagerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCFMDBManagerExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-XCFMDBManagerExample/Pods-XCFMDBManagerExample.release.xcconfig"; sourceTree = "<group>"; };
+		F8C0EB32E8DD187258CE1B68 /* Pods-XCFMDBManagerExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCFMDBManagerExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XCFMDBManagerExampleTests/Pods-XCFMDBManagerExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA4EA7EC6F3EE940526791A2 /* Pods_XCFMDBManagerExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCFMDBManagerExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +82,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ED5C3111E9CA1150039B452 /* libsqlite3.tbd in Frameworks */,
+				ACBF975D4DF3F5FC823982EE /* Pods_XCFMDBManagerExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				749058CCF2454C0A7C8E21E4 /* Pods_XCFMDBManagerExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,22 +98,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87EC8C35661923FDED537D69 /* Pods_XCFMDBManagerExampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		080C95F20EF983315DE76EE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9547A4F99EFED0902EB4101E /* Pods-XCFMDBManagerExample.debug.xcconfig */,
+				C12AAB6C70657B87E6CBC3E8 /* Pods-XCFMDBManagerExample.release.xcconfig */,
+				8133112EA82097E53FCEEAAD /* Pods-XCFMDBManagerExampleTests.debug.xcconfig */,
+				F8C0EB32E8DD187258CE1B68 /* Pods-XCFMDBManagerExampleTests.release.xcconfig */,
+				323AC2FB9F2C59988779D51A /* Pods-XCFMDBManagerExampleUITests.debug.xcconfig */,
+				0DDDF6D78B0E7EF01B09D262 /* Pods-XCFMDBManagerExampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1ED5C2D01E9CA0E40039B452 = {
 			isa = PBXGroup;
 			children = (
-				1ED5C3121E9CA1690039B452 /* fmdb */,
 				1ED5C31E1E9CA1690039B452 /* XCFMDBManager */,
 				1ED5C2DB1E9CA0E40039B452 /* XCFMDBManagerExample */,
 				1ED5C2F51E9CA0E40039B452 /* XCFMDBManagerExampleTests */,
 				1ED5C3001E9CA0E40039B452 /* XCFMDBManagerExampleUITests */,
 				1ED5C2DA1E9CA0E40039B452 /* Products */,
 				1ED5C30F1E9CA1150039B452 /* Frameworks */,
+				080C95F20EF983315DE76EE1 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,26 +191,11 @@
 			isa = PBXGroup;
 			children = (
 				1ED5C3101E9CA1150039B452 /* libsqlite3.tbd */,
+				FA4EA7EC6F3EE940526791A2 /* Pods_XCFMDBManagerExample.framework */,
+				9402DAA8158BD5D1D3FE60AF /* Pods_XCFMDBManagerExampleTests.framework */,
+				2442A1A5269D42982F1270A8 /* Pods_XCFMDBManagerExampleUITests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1ED5C3121E9CA1690039B452 /* fmdb */ = {
-			isa = PBXGroup;
-			children = (
-				1ED5C3131E9CA1690039B452 /* FMDatabase.h */,
-				1ED5C3141E9CA1690039B452 /* FMDatabase.m */,
-				1ED5C3151E9CA1690039B452 /* FMDatabaseAdditions.h */,
-				1ED5C3161E9CA1690039B452 /* FMDatabaseAdditions.m */,
-				1ED5C3171E9CA1690039B452 /* FMDatabasePool.h */,
-				1ED5C3181E9CA1690039B452 /* FMDatabasePool.m */,
-				1ED5C3191E9CA1690039B452 /* FMDatabaseQueue.h */,
-				1ED5C31A1E9CA1690039B452 /* FMDatabaseQueue.m */,
-				1ED5C31B1E9CA1690039B452 /* FMDB.h */,
-				1ED5C31C1E9CA1690039B452 /* FMResultSet.h */,
-				1ED5C31D1E9CA1690039B452 /* FMResultSet.m */,
-			);
-			path = fmdb;
 			sourceTree = "<group>";
 		};
 		1ED5C31E1E9CA1690039B452 /* XCFMDBManager */ = {
@@ -217,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1ED5C3061E9CA0E40039B452 /* Build configuration list for PBXNativeTarget "XCFMDBManagerExample" */;
 			buildPhases = (
+				661679336867D59B3EAE1362 /* [CP] Check Pods Manifest.lock */,
 				1ED5C2D51E9CA0E40039B452 /* Sources */,
 				1ED5C2D61E9CA0E40039B452 /* Frameworks */,
 				1ED5C2D71E9CA0E40039B452 /* Resources */,
+				98A538E96E681E5E1BE4907B /* [CP] Embed Pods Frameworks */,
+				707142258D719B8EE7595186 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1ED5C3091E9CA0E40039B452 /* Build configuration list for PBXNativeTarget "XCFMDBManagerExampleTests" */;
 			buildPhases = (
+				8D9B8C3FAFB619F1076A0A59 /* [CP] Check Pods Manifest.lock */,
 				1ED5C2EE1E9CA0E40039B452 /* Sources */,
 				1ED5C2EF1E9CA0E40039B452 /* Frameworks */,
 				1ED5C2F01E9CA0E40039B452 /* Resources */,
+				FAA4B25663159AB14875DD47 /* [CP] Embed Pods Frameworks */,
+				5F48C2A66C5F6B2E145ABF91 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,9 +255,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1ED5C30C1E9CA0E40039B452 /* Build configuration list for PBXNativeTarget "XCFMDBManagerExampleUITests" */;
 			buildPhases = (
+				063F2E95FC86FE637CC31D32 /* [CP] Check Pods Manifest.lock */,
 				1ED5C2F91E9CA0E40039B452 /* Sources */,
 				1ED5C2FA1E9CA0E40039B452 /* Frameworks */,
 				1ED5C2FB1E9CA0E40039B452 /* Resources */,
+				D5E5CCC583298623A339C3AC /* [CP] Embed Pods Frameworks */,
+				BFA6B2BBF21908FA0321B54D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -272,7 +278,7 @@
 		1ED5C2D11E9CA0E40039B452 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "樊小聪";
 				TargetAttributes = {
 					1ED5C2D81E9CA0E40039B452 = {
@@ -338,6 +344,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		063F2E95FC86FE637CC31D32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XCFMDBManagerExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F48C2A66C5F6B2E145ABF91 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XCFMDBManagerExampleTests/Pods-XCFMDBManagerExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		661679336867D59B3EAE1362 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XCFMDBManagerExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		707142258D719B8EE7595186 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XCFMDBManagerExample/Pods-XCFMDBManagerExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D9B8C3FAFB619F1076A0A59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XCFMDBManagerExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98A538E96E681E5E1BE4907B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XCFMDBManagerExample/Pods-XCFMDBManagerExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XCFMDBManagerExample/Pods-XCFMDBManagerExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFA6B2BBF21908FA0321B54D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XCFMDBManagerExampleUITests/Pods-XCFMDBManagerExampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5E5CCC583298623A339C3AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XCFMDBManagerExampleUITests/Pods-XCFMDBManagerExampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAA4B25663159AB14875DD47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XCFMDBManagerExampleTests/Pods-XCFMDBManagerExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1ED5C2D51E9CA0E40039B452 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -345,15 +501,10 @@
 			files = (
 				1ED5C32F1E9CA24C0039B452 /* Student.m in Sources */,
 				1ED5C3291E9CA1930039B452 /* ViewController.m in Sources */,
-				1ED5C3231E9CA1690039B452 /* FMDatabasePool.m in Sources */,
 				1ED5C32E1E9CA24C0039B452 /* Person.m in Sources */,
 				1ED5C2E11E9CA0E40039B452 /* AppDelegate.m in Sources */,
-				1ED5C3241E9CA1690039B452 /* FMDatabaseQueue.m in Sources */,
 				1ED5C2DE1E9CA0E40039B452 /* main.m in Sources */,
 				1ED5C3351E9CA2A50039B452 /* NSObject+FMDB.m in Sources */,
-				1ED5C3211E9CA1690039B452 /* FMDatabase.m in Sources */,
-				1ED5C3251E9CA1690039B452 /* FMResultSet.m in Sources */,
-				1ED5C3221E9CA1690039B452 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +568,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -425,7 +578,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -464,7 +622,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -472,7 +632,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -498,6 +663,7 @@
 		};
 		1ED5C3071E9CA0E40039B452 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9547A4F99EFED0902EB4101E /* Pods-XCFMDBManagerExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XCFMDBManagerExample/Info.plist;
@@ -509,6 +675,7 @@
 		};
 		1ED5C3081E9CA0E40039B452 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C12AAB6C70657B87E6CBC3E8 /* Pods-XCFMDBManagerExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XCFMDBManagerExample/Info.plist;
@@ -520,6 +687,7 @@
 		};
 		1ED5C30A1E9CA0E40039B452 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8133112EA82097E53FCEEAAD /* Pods-XCFMDBManagerExampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = XCFMDBManagerExampleTests/Info.plist;
@@ -532,6 +700,7 @@
 		};
 		1ED5C30B1E9CA0E40039B452 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8C0EB32E8DD187258CE1B68 /* Pods-XCFMDBManagerExampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = XCFMDBManagerExampleTests/Info.plist;
@@ -544,6 +713,7 @@
 		};
 		1ED5C30D1E9CA0E40039B452 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 323AC2FB9F2C59988779D51A /* Pods-XCFMDBManagerExampleUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = XCFMDBManagerExampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -555,6 +725,7 @@
 		};
 		1ED5C30E1E9CA0E40039B452 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DDDF6D78B0E7EF01B09D262 /* Pods-XCFMDBManagerExampleUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = XCFMDBManagerExampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
