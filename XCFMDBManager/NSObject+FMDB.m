@@ -30,6 +30,8 @@
 #define PROPERTY_NAME   @"name"
 #define PROPERTY_TYPE   @"type"
 
+#define DB_NOT_FOUND    0
+
 /* 🐖 ***************************** 🐖 FMDBManager 🐖 *****************************  🐖 */
 
 @interface FMDBManager : NSObject
@@ -109,12 +111,14 @@ static FMDBManager *_instance = nil;
 
 /* 🐖 ***************************** 🐖 FMDB 🐖 *****************************  🐖 */
 
+
 @interface NSObject ()
 
 /** 👀 主键 👀 */
 @property (assign, nonatomic) NSInteger PRIMARY_KEY_ID;
 
 @end
+
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wincomplete-implementation"
@@ -125,7 +129,7 @@ static FMDBManager *_instance = nil;
 
 - (void)setPRIMARY_KEY_ID:(NSInteger)PRIMARY_KEY_ID
 {
-    objc_setAssociatedObject(self, @selector(PRIMARY_KEY_ID), @(PRIMARY_KEY_ID), OBJC_ASSOCIATION_ASSIGN);
+    objc_setAssociatedObject(self, @selector(PRIMARY_KEY_ID), @(PRIMARY_KEY_ID), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 - (NSInteger)PRIMARY_KEY_ID
@@ -319,10 +323,7 @@ static FMDBManager *_instance = nil;
     __block BOOL isSuccess = NO;
     
     // 如果当前要删除的模型没有 DB_PRIMARY_KEY_ID 这个属性，则直接返回，删除失败
-    if ([self containPropertyWithPropertyName:DB_PRIMARY_KEY_ID])
-    {
-        return NO;
-    }
+    if (self.PRIMARY_KEY_ID == DB_NOT_FOUND)    return NO;
     
     __weak typeof(self)weakSelf = self;
     
@@ -410,11 +411,8 @@ static FMDBManager *_instance = nil;
      *  根据主键 DB_PRIMARY_KEY_ID 从数据库中找到匹配的模型并将属性值修改
      */
     
-    /// 如果当前要修改的模型没有 DB_PRIMARY_KEY_ID 这个属性，则直接返回，修改失败
-    if ([self containPropertyWithPropertyName:DB_PRIMARY_KEY_ID])
-    {
-        return NO;
-    }
+    // 如果当前要删除的模型没有 DB_PRIMARY_KEY_ID 这个属性，则直接返回，删除失败
+    if (self.PRIMARY_KEY_ID == DB_NOT_FOUND)    return NO;
     
     __weak typeof(self)weakSelf = self;
     
@@ -681,38 +679,6 @@ static FMDBManager *_instance = nil;
     }];
     
     return objs;
-}
-
-/**
- *  判断模型中是否存在对应的属性
- *
- *  @param name 属性名称
- */
-- (BOOL)containPropertyWithPropertyName:(NSString *)name
-{
-    unsigned int outCount, i;
-    
-    objc_property_t *properties = class_copyPropertyList([self class], &outCount);
-    
-    for (i = 0; i < outCount; i ++)
-    {
-        objc_property_t property = properties[i];
-        
-        /// 获取属性名称
-        NSString *propertyName = [NSString stringWithCString:property_getName(property) encoding:NSUTF8StringEncoding];
-        
-        BOOL hasContain = [propertyName isEqualToString:name];
-        
-        if (!hasContain)
-        {
-            free(properties);
-            return NO;
-        }
-    }
-    
-    free(properties);
-    
-    return YES;
 }
 
 /**

@@ -10,6 +10,7 @@
 
 #import "Student.h"
 
+
 @interface Person : NSObject
 
 @property(nonatomic, copy)NSString *name;

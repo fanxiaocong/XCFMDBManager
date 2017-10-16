@@ -14,6 +14,7 @@
 
 @interface NSObject (FMDB)
 
+
 /**
  *  创建 数据库表（表名为：类名）
  *

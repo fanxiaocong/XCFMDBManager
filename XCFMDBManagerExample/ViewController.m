@@ -56,9 +56,13 @@
 - (IBAction)update:(id)sender {
     
     Person *p = [[Person fetchAll] lastObject];
-    
+
     p.age = self.ageF.text.integerValue;
     p.name = self.nameF.text;
+    
+//    Person *p = [Person new];
+//    p.age = 999;
+//    p.name = @"错误数据";
     
     BOOL success = [p update];
     
@@ -92,7 +96,15 @@
 
 - (IBAction)delete:(id)sender
 {
-    BOOL success = [Person removeObjectsByCriteria:@"age > %@", self.queryAgeF.text];
+//    BOOL success = [Person removeObjectsByCriteria:@"age > %@", self.queryAgeF.text];
+    
+//    BOOL success = [[Person new] remove];
+    
+//    Person *p = [[Person fetchAll] firstObject];
+//    BOOL success = [p remove];
+    
+    Person *p = [Person new];
+    BOOL success = [p remove];
     
     if (success)
     {
