@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XCFMDBManager"
-  s.version      = "1.0.0"
+  s.version      = "1.2.0"
   s.summary      = "XCFMDBManager."
 
   # This description is used to generate tags and improve search results.
